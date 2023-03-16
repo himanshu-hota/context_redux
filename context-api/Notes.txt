@@ -1,0 +1,32 @@
+------------------------ We need 1 folder and 3 files. ---------------------------
+
+----store file || State definition file || custom hook file for direct access-----
+
+
+1. create a store folder.
+
+2. define initial state for context
+
+3. create a context with createContext() and export it.
+
+4. create a file for providing definition to our initial state
+
+5. define states and functions for our context with help of useState and functions and export them in a object.
+
+6.  create a wrapper component that will wrap our app and receive props.
+
+7. inside this wrapper component get all the custom defintion of our initial state.
+
+8. inside the wrapper component return a component that will wrap the props.children and give it a prop of value and pass the custom definition to it.
+
+9. in the index.js file wrap the App component with our custom wrapper component.
+
+10. Now create a custom hook component that will help us in accessing the context.
+
+11 inside this custom hook component import the context we created earlier also import useContext.
+
+12. pass this context to useContext and assign it to a variable.
+
+13. return this variable from this component.
+
+14. to access the context in any component we can use this helper custom hook.

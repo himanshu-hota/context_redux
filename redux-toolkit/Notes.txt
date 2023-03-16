@@ -1,0 +1,21 @@
+1. Install redux toolkit :- npx create-react-app my-app --template redux.
+
+2. create store.js file and create a store and export it.
+
+3. create a slice.
+
+4. define initial state and also the methods to manipulate them.
+
+5. destructure and export those methods from xyzslice.action.
+
+6. export reducer function from xyzslice.js .
+
+7. register this reducer function into the store.
+
+8. provide store access to our app by including store and provider in index.js and wrap our app with this Provider and pass the store to it.
+
+9. to access data => useSelector().
+
+10. to dispatch actions = useDispatch().
+
+
